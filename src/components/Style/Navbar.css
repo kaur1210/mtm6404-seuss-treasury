@@ -1,0 +1,25 @@
+.navbar {
+  background-color: #67707a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  padding: 10px 0; 
+}
+
+.navbar .nav-link {
+  color: rgb(5, 5, 5);
+  transition: transform 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  color: #000000;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
